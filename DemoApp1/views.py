@@ -6,5 +6,5 @@ from django.http import HttpResponse
 def f1(request):
 	return HttpResponse("<h1>Hello from DemoApp1 f1() & Have A Nice Day</h1><hr />");
 def f2(request):
-	return HttpResponse("<h1>Hello from DemoApp1 f2()</h1><hr />");
+	return HttpResponse("<h1>Hello from DemoApp1 f2() & Have A Nice Day</h1><hr />");
 
